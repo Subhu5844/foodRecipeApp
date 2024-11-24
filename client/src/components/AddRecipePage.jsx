@@ -13,7 +13,7 @@ const AddRecipePage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    //This is for testing purpose
     const formData = new FormData();
     formData.append("title", title);
     formData.append("ingredients", ingredients);
